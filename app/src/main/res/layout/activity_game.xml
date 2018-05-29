@@ -14,6 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="52dp"
         android:text="@string/instructions"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,13 +57,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="76dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
         android:onClick="onScissorsClickButton"
         android:text="@string/Scissors"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Paper"
         app:layout_constraintTop_toBottomOf="@+id/instructions"
         app:layout_constraintVertical_bias="0.382" />
@@ -73,11 +72,19 @@
         android:layout_height="100dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="36dp"
         android:text="@string/result"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
 </android.support.constraint.ConstraintLayout>
