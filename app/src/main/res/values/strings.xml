@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RockPaperScissors</string>
+    <string name="instructions">Press a option and beat the android!</string>
+    <string name="Rock">Rock</string>
+    <string name="Paper">Paper</string>
+    <string name="Scissors">Scissors</string>
+    <string name="result"> </string>
 </resources>
